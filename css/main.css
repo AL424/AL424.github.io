@@ -1,0 +1,225 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    color: #304041;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+p {
+	margin: 0;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.container_full-height {
+    height: 100%;
+    display: flex;
+	align-items: center
+}
+
+section, footer {
+    padding-top: 145px;
+}
+
+.section-title {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.btn {
+    display: block;
+    text-decoration: none;
+    padding: 18px 0;
+    margin: 0 auto;
+    font-weight: 800;
+    font-size: 16px;
+    text-align: center;
+    transition: all 0.5s ease
+}
+
+/* header */
+
+.header {
+    background: linear-gradient(360deg, rgba(205, 204, 216, 0.2) 36.14%, rgba(246, 246, 248, 0.2) 71.1%), url('../img/header-bg.jpg') no-repeat top center / cover;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 80px;
+    color: #fff;
+}
+
+.offer {
+    margin-top: 201px;
+    margin-bottom: 217px;
+}
+
+.offer__city {
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #000;
+    background-color: #fff;
+    border-radius: 78px;
+    padding: 8px 0;
+    width: 249px;
+    margin: 0 auto;
+}
+
+.offer__title {
+    font-size: 60px;
+    letter-spacing: 0.145em;
+    margin-top: 24px;
+}
+
+.offer__text {
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 24px;
+}
+
+.offer__btn {
+    color: #fff;
+    background: #5F51FF;
+    border-radius: 119px;
+    width: 247px;
+    margin-top: 24px;
+}
+
+.offer__btn:hover {
+    background: #473ad4;
+}
+
+.arrow-down {
+    display: block;
+    width: 18px;
+    height: 27px;
+    background: url('../img/arrow-down.svg');
+    opacity: 0.5;
+    transition: opacity 0.5s ease;
+    margin: 0 auto;
+}
+
+.arrow-down:hover {
+    opacity: 1;
+}
+
+/* section 2 routes */
+
+.route {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F1F0FF;
+    margin-bottom: 90px;
+}
+
+.route__wrapper {
+    padding: 112px 73px;
+}
+
+.route__number {
+    text-transform: uppercase;
+    color: #789AA0;
+    margin-bottom: 20px;
+}
+
+.route__title {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.route__info {
+    line-height: 1.53em;
+    margin-bottom: 48px;
+}
+
+.route__arrow-next {
+    width: 68px;
+    height: 17px;
+    display: block;
+    background: url('../img/arrow-next.svg');
+    opacity: 0.5;
+    transition: opacity 0.5s ease;
+}
+
+.route__arrow-next:hover {
+    opacity: 1;
+}
+
+.routes__btn {
+    border: 1px solid #5F51FF;
+    border-radius: 94px;
+    color: #5F51FF;
+    width: 332px;
+}
+
+.routes__btn:hover {
+    background-color: #5F51FF;
+    color: #fff;
+    border: 1px solid #5F51FF;
+}
+
+/* section 3 guide */
+
+.guide__content {
+    background: url(../img/arc-de-triomf.jpg) no-repeat right top / 50%;
+    height: 626px;
+}
+
+.guide__list {
+    width: 410px;
+    
+}
+
+.guide__item {
+    font-size: 16px;
+    line-height: 1.25em;
+}
+
+.guide__item::before {
+    content: '';
+    display: block;
+    background: rgba(95, 81, 255, 0.41);
+    border-radius: 23px;
+    width: 65px;
+    height: 7px;
+    margin-bottom: 15px;
+}
+
+.guide__item:not(:last-child) {
+    margin-bottom: 61px;
+}
+
+/* footer */
+
+.footer {
+    padding-bottom: 165px;
+    font-size: 14px;
+    color: #5C7677;
+}
+
+.footer__text {
+    margin-left: 60px;    
+}
